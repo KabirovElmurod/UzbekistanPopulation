@@ -1,16 +1,108 @@
-# React + Vite
+# Uzbekistan Population Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O‘zbekiston aholisining 1991-yildan 2025-yilgacha bo‘lgan o‘sish dinamikasini vizualizatsiya qiluvchi React web-ilova.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 1991–2025 yillar bo‘yicha aholi statistikasi
+* Population growth Line Chart
+* Initial Population
+* Current Population
+* Total Growth
+* Growth %
+* Yillar bo‘yicha period filtering
+* Responsive dashboard
+* Mock API orqali ma’lumot olish
+* A4 formatida PDF export
+* Loading, Error va Empty states
 
-## React Compiler
+## Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript
+* Recharts
+* JSON Server
+* html2canvas
+* jsPDF
+* CSS
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Repository'ni clone qiling:
+
+```bash
+git clone https://github.com/KabirovElmurod/UzbekistanPopulation.git
+```
+
+Project papkasiga kiring:
+
+```bash
+cd UzbekistanPopulation
+```
+
+Dependencies'larni o‘rnating:
+
+```bash
+npm install
+```
+
+## Running the project
+
+Frontend'ni ishga tushirish:
+
+```bash
+npm run dev
+```
+
+Mock API serverni alohida terminalda ishga tushiring:
+
+```bash
+npm run mock
+```
+
+Mock API:
+
+```text
+http://localhost:3001
+```
+
+## Mock API
+
+Ilova real backend o‘rniga JSON Server orqali Mock API'dan foydalanadi.
+
+Population ma’lumotlari:
+
+```text
+GET http://localhost:3001/population
+```
+
+## PDF Export
+
+Dashboard'dagi **PDF yuklab olish** tugmasi orqali statistikalar va diagramma A4 formatdagi PDF faylga eksport qilinadi.
+
+Fayl nomi:
+
+```text
+uzbekistan-population-1991-2026.pdf
+```
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── style/
+├── utils/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+mock/
+└── db.json
+```
+
+## Preview
+
+![Uzbekistan Population Dashboard](./src/assets/dashboard_1.png)
+![Uzbekistan Population Dashboard](./src/assets/dashboard_2.png)
