@@ -1,0 +1,25 @@
+.population {
+    // display: flex;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid var(--border-cl);
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        background-color: var(--div-bg);
+        cursor: pointer;
+        transition: all 0.2s linear;
+
+        &:hover {
+            box-shadow: 0 0 10px rgb(199, 199, 199);
+        }
+    }
+}

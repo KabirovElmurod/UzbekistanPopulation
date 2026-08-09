@@ -1,0 +1,60 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  /* --text: blue; */
+  /* background: aliceblue; */
+}
+
+.light {
+  /* forces light color-scheme */
+  --text: black;
+  background: aliceblue;
+  --border-cl: rgb(205, 205, 205);
+  --div-bg: white;
+  --button-bg: aliceblue;
+  --button-hover: rgb(221, 239, 255);
+  --button-active: rgb(0, 166, 255);
+}
+
+.dark {
+  /* forces dark color-scheme */
+  color-scheme: dark;
+  --text: white;
+  background: rgb(31, 36, 45);
+  --border-cl: rgb(205, 205, 205);
+  --div-bg: rgb(41, 48, 61);
+  --button-bg: rgb(44, 62, 84);
+  --button-hover: rgb(32, 69, 101);
+  --button-active: rgb(0, 144, 222);
+
+
+
+}
+
+.App {
+  color: var(--text);
+}
+
+h2,
+p,
+ul,
+li,
+a,
+h3 {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none
+}
+
+.theme {
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: var(--button-bg);
+  cursor: pointer;
+  transition: all 0.2s linear;
+  border: 1px solid var(--border-cl);
+}
+
+.theme:hover {
+  background-color: var(--button-hover);
+}

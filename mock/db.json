@@ -1,0 +1,146 @@
+{
+    "country": "Uzbekistan",
+    "unit": "people",
+    "data": [
+        {
+            "year": "1991",
+            "population": 20962910
+        },
+        {
+            "year": "1992",
+            "population": 21485090
+        },
+        {
+            "year": "1993",
+            "population": 21987955
+        },
+        {
+            "year": "1994",
+            "population": 22463291
+        },
+        {
+            "year": "1995",
+            "population": 22917589
+        },
+        {
+            "year": "1996",
+            "population": 23351981
+        },
+        {
+            "year": "1997",
+            "population": 23758960
+        },
+        {
+            "year": "1998",
+            "population": 24134929
+        },
+        {
+            "year": "1999",
+            "population": 24476008
+        },
+        {
+            "year": "2000",
+            "population": 24787054
+        },
+        {
+            "year": "2001",
+            "population": 25090283
+        },
+        {
+            "year": "2002",
+            "population": 25399980
+        },
+        {
+            "year": "2003",
+            "population": 25711259
+        },
+        {
+            "year": "2004",
+            "population": 26029350
+        },
+        {
+            "year": "2005",
+            "population": 26356975
+        },
+        {
+            "year": "2006",
+            "population": 26699043
+        },
+        {
+            "year": "2007",
+            "population": 27076008
+        },
+        {
+            "year": "2008",
+            "population": 27494774
+        },
+        {
+            "year": "2009",
+            "population": 27939328
+        },
+        {
+            "year": "2010",
+            "population": 28385506
+        },
+        {
+            "year": "2011",
+            "population": 28823196
+        },
+        {
+            "year": "2012",
+            "population": 29261903
+        },
+        {
+            "year": "2013",
+            "population": 29724065
+        },
+        {
+            "year": "2014",
+            "population": 30222994
+        },
+        {
+            "year": "2015",
+            "population": 30749346
+        },
+        {
+            "year": "2016",
+            "population": 31284568
+        },
+        {
+            "year": "2017",
+            "population": 31819178
+        },
+        {
+            "year": "2018",
+            "population": 32373490
+        },
+        {
+            "year": "2019",
+            "population": 32964701
+        },
+        {
+            "year": "2020",
+            "population": 33586372
+        },
+        {
+            "year": "2021",
+            "population": 34243696
+        },
+        {
+            "year": "2022",
+            "population": 34938955
+        },
+        {
+            "year": "2023",
+            "population": 35652307
+        },
+        {
+            "year": "2024",
+            "population": 36361859
+        },
+        {
+            "year": "2025",
+            "population": 37053428
+        }
+    ]
+}
